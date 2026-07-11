@@ -1,0 +1,8 @@
+[providers.python]
+pythonVersion = "3.11"
+
+[phases.setup]
+nixPkgs = ["ffmpeg"]
+
+[phases.start]
+cmds = ["python bot.py"]
